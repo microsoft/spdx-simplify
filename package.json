@@ -1,0 +1,31 @@
+{
+  "name": "spdx-simplify",
+  "version": "0.1.0",
+  "description": "Simplifies a SPDX expression to a list of licenses that can be chosen.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test/index.js"
+  },
+  "keywords": [
+    "spdx",
+    "license"
+  ],
+  "homepage": "https://github.com/Microsoft/spdx-simplify",
+  "bugs": "https://github.com/Microsoft/spdx-simplify/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Microsoft/spdx-simplify.git"
+  },
+  "author": "William Bartholomew <willbar@microsoft.com>",
+  "license": "MIT",
+  "files": [
+    "lib/index.js"
+  ],
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "2.5.2"
+  },
+  "dependencies": {
+    "spdx": "0.5.1"
+  }
+}
