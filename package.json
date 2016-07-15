@@ -26,6 +26,6 @@
     "mocha": "2.5.2"
   },
   "dependencies": {
-    "spdx": "0.5.1"
+    "spdx-expression-parse": "^1.0.2"
   }
 }
