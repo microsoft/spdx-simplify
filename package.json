@@ -1,6 +1,6 @@
 {
   "name": "spdx-simplify",
-  "version": "0.1.0",
+  "version": "3.0.0",
   "description": "Simplifies a SPDX expression to a list of licenses that can be chosen.",
   "main": "lib/index.js",
   "scripts": {
@@ -26,6 +26,6 @@
     "mocha": "2.5.2"
   },
   "dependencies": {
-    "spdx": "0.5.1"
+    "spdx-expression-parse": "^3.0.0"
   }
 }
